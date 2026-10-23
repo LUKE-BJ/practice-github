@@ -1,0 +1,37 @@
+# ── 비밀값 파일 (키·토큰·비밀번호가 들어갈 수 있음) ──
+# 환경변수 파일
+.env
+# .env.local, .env.production 같은 변형 파일
+.env.*
+# 단, 값이 없는 예시 파일은 공유해도 되므로 남김
+!.env.example
+
+# ── 개인정보가 든 원자료 ──
+# 내려받은 원자료 폴더 전체
+raw/
+
+# ── 운영체제가 자동으로 만드는 파일 ──
+# macOS 폴더 메타데이터
+.DS_Store
+# Windows 썸네일 캐시
+Thumbs.db
+
+# ── 한글·오피스 임시 파일 ──
+# 오피스(Word·Excel·PowerPoint)가 문서를 열 때 만드는 잠금 파일
+~$*
+# 오피스·한글이 만드는 임시 파일
+*.tmp
+# 한글(HWP) 자동 백업 파일
+*.hwp.bak
+# 한글 백업 파일
+*.bak
+# 한글 자동 저장 파일
+*.asv
+
+# ── PDF 파일 ──
+# 모든 폴더의 PDF 제외
+*.pdf
+
+# ── Claude Code 개인 설정 ──
+# 내 컴퓨터에서만 쓰는 Claude 로컬 설정
+.claude/settings.local.json
